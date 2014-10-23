@@ -1,0 +1,43 @@
+<html>
+  <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+     <link rel="stylesheet" href="css/screen3.css" />
+     <title>Register</title>
+  </head>
+  <body>
+    <form action="https://www.reddit.com/register" id="registerform" method="post">
+      <h1>New User Register</h1>
+	  <p>
+		<label for="user_register">Username<br />
+		<input type="text" name="register" id="user_name" value="" size="20" required autofocus />
+                <strong><abbr title="required">*</abbr></strong></label>
+	  </p>
+          <p>
+		<label for="user_email">Email<br />
+		<input type="email" name="mail" id="user_email" value="" size="20" required />
+                <strong><abbr title="required">*</abbr></strong></label>
+	  </p>
+	  <p>
+		<label for="user_pass">Password<br />
+		<input type="password" name="pwd" id="user_pass" value="" size="20" required />
+                <strong><abbr title="required">*</abbr></strong></label>
+	  </p>
+          <p>
+		<label for="user_pass_again">Confirm Password<br />
+		<input type="password" name="pwd" id="user_pass_again" value="" size="20" required />
+                <strong><abbr title="required">*</abbr></strong></label>
+	  </p>
+
+          <p class="rememberpwd">
+		<label for="rememberme">
+		<span><input name="rememberme" type="checkbox" id="rememberme" value="checkbox" />Remember Me</span></label>
+                | <a href="form.html">back to reddit.com</a>
+	  </p>
+          <p class="submit">
+		<input type="submit" name="reddit-submit" id="reddit-submit" value="Create Account" />
+          </p>
+    <form>
+  </body>
+</html>

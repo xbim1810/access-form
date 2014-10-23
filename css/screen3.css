@@ -1,0 +1,83 @@
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form h1 {
+    font-family: Abyssinica SIL;
+    color: purple;
+    font-size: 2em;
+    line-height: 1.5em
+    margin-bottom: 4em;
+}
+
+form p {
+    font-family: Bitstream Charter;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-top: .8em;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    font-size: 1em;
+    border: 1px solid #999;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: .5em;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+    font-size: .8em;
+    color: blue;
+}
+
+a {
+    font-size: .8em;
+    color: purple;
+    text-decoration: none;
+}
+
+label {
+    margin-bottom: .2em;
+}
+
+input[type=checkbox] {
+    width : 1em;
+}
+
+:root input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin: 0 .5em 0 0;
+    vertical-align: center;
+    position: relative;
+    outline: 1px dotted black;
+}
+
+input[type=submit] {
+    color: purple;
+}
+
+input:focus {
+    background   : rgba(0,0,0,.1);
+    border-radius: .5em;
+    outline      : none;
+}
+
+
+
+
+
+

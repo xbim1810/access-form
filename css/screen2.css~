@@ -1,0 +1,65 @@
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color:
+}
+
+form h1 {
+    font-family: Abyssinica SIL;
+    color: purple;
+    font-size: 2em;
+    line-height: 1.5em
+    margin-bottom: 4em;
+}
+
+form p {
+    font-family: Bitstream Charter;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-top: .8em;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    font-size: 1em;
+    border: 1px solid #999;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-bottom: .1em;
+    border-radius: .5em;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+input[type=submit] {
+    color: purple;
+    margin-right: 2.5em;
+    background-color:
+}
+
+input:focus {
+    background   : rgba(0,0,0,.1);
+    border-radius: .5em;
+    outline      : none;
+}
+form a {
+    font-size: .8em;
+}
+
+span {
+    font-size: 1em:
+    color: purple;
+}
+
+form a:hover {
+  color: red;
+}
+

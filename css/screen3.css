@@ -38,7 +38,6 @@ input {
 }
 
 span {
-    display: inline-block;
     font-size: .8em;
     color: blue;
 }
@@ -50,7 +49,7 @@ a {
 }
 
 label {
-    margin-bottom: .2em;
+    margin-bottom:.2em;
 }
 
 input[type=checkbox] {
@@ -74,6 +73,132 @@ input:focus {
     background   : rgba(0,0,0,.1);
     border-radius: .5em;
     outline      : none;
+}
+
+/*  Media Query */
+
+@media screen and (min-width: 80em) {
+form {
+    margin: 0 auto;
+    width: 30%;
+    padding: 1em;
+}
+
+
+input {
+    width: 70%;
+}
+
+
+
+input[type=submit] {
+    width: 30%;
+    font-size: 100%;
+    margin-right: 2.5em;
+}
+
+input[type=checkbox] {
+    width: 1em;
+}
+
+
+:root input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin: 0 .5em 0 0;
+    vertical-align: center;
+    position: relative;
+    outline: 1px dotted black;
+}
+
+
+input[type=submit] + a {
+    font-size: .8em;
+}
+
+}
+
+@media screen and (min-width: 40em) {
+   form {
+    margin: 0 auto;
+    width: 60%;
+    padding: 1em;
+}
+
+
+input {
+    width: 70%;
+}
+
+
+
+input[type=submit] {
+    width: 60%;
+    font-size: 100%;
+    margin-right: 2.5em;
+}
+
+input[type=checkbox] {
+    width: 1em;
+}
+
+
+:root input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin: 0 .5em 0 0;
+    vertical-align: center;
+    position: relative;
+    outline: 1px dotted black;
+}
+
+
+input[type=submit] + a {
+    font-size: .8em;
+}
+
+}
+
+
+@media screen and (min-width: 20em) {
+   form {
+    margin: 0 auto;
+    width: 30%;
+    padding: 1em;
+}
+
+
+input {
+    width: 70%;
+}
+
+
+
+input[type=submit] {
+    width: 30%;
+    font-size: .8em;
+    margin-right: 2.5em;
+}
+
+input[type=checkbox] {
+    width: 1em;
+}
+
+
+:root input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin: 0 .5em 0 0;
+    vertical-align: center;
+    position: relative;
+    outline: 1px dotted black;
+}
+
+
+input[type=submit] + a {
+    font-size: .8em;
+}
+
 }
 
 

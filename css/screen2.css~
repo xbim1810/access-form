@@ -1,216 +1,86 @@
+
 form {
     /* Just to center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 30%;
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
-    background-color:
 }
 
 form h1 {
-    font-family: Abyssinica SIL;
-    color: purple;
-    font-size: 2em;
-    line-height: 1.5em
-    margin-bottom: 4em;
+   font-family: Abyssinica SIL;
+   color: #08088A;
+   font-size: 1.5em; 
+   text-align: center;
+   background-color: #A9D0F5;
+   margin-bottom: .5em;
+   width: 100%;
 }
 
-form p {
+p {
     font-family: Bitstream Charter;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1em;
     margin-top: .8em;
-}
-
-label {
-    display: inline-block;
-    
 }
 
 input {
     font-size: 1em;
     border: 1px solid #999;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding: 0 .2em 0 .2em;
     margin-bottom: .2em;
-    border-radius: .5em;
     -moz-box-sizing: border-box;
          box-sizing: border-box;
 }
 
 span {
-    font-size: .8em:
-    color: blue;
+    color: #B404AE;
+}
+
+:root input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin-right: .5em;
+    outline: 1px dotted black;
 }
 
 a {
-    font-size: .8em;
-    color: purple;
+    color: #08088A;
     text-decoration: none;
 }
 
+span a {
+    color: #B404AE;
+}
+
 input[type=submit] {
-    color: purple;
-    margin-right: 2.5em;
-    background-color: 
-}
-
-input[type=checkbox] {
-    width: 1em;
-}
-
-
-:root input[type=checkbox] {
-    width: 16px;
-    height: 16px;
-    margin: 0 .5em 0 0;
-    vertical-align: center;
-    position: relative;
-    outline: 1px dotted black;
+    color: #08088A;
+    background-color: #A9D0F5;
 }
 
 input:focus {
-    background   : rgba(0,0,0,.1);
+    outline: 1px solid #B404AE;
     border-radius: .5em;
-    outline      : none;
 }
 
-input[type=submit] + a {
-    color: blue;
-    font-size: .8em;
-}
-
-form a:hover {
+a:hover {
   color: red;
 }
 
-/*  Media Query */
-
-@media screen and (min-width: 60em) {
-  form {
-    margin: 0 auto;
-    width: 30%;
-    padding: 1em;
+img {
+  margin-top:.5em;
 }
 
 
-input {
-    width: 70%;
-}
+    
 
 
 
-input[type=submit] {
-    width: 30%;
-    font-size: .8em;
-    margin-right: 2.5em;
-}
-
-input[type=checkbox] {
-    width: 1em;
-}
-
-
-:root input[type=checkbox] {
-    width: 16px;
-    height: 16px;
-    margin: 0 .5em 0 0;
-    vertical-align: center;
-    position: relative;
-    outline: 1px dotted black;
-}
-
-
-input[type=submit] + a {
-    font-size: .8em;
-}
-
-}
-
-@media screen and (min-width: 40em) {
-   form {
-    margin: 0 auto;
-    width: 30%;
-    padding: 1em;
-}
-
-
-input {
-    width: 70%;
-}
 
 
 
-input[type=submit] {
-    width: 30%;
-    font-size: .8em;
-    margin-right: 2.5em;
-}
-
-input[type=checkbox] {
-    width: 1em;
-}
-
-
-:root input[type=checkbox] {
-    width: 16px;
-    height: 16px;
-    margin: 0 .5em 0 0;
-    vertical-align: center;
-    position: relative;
-    outline: 1px dotted black;
-}
-
-
-input[type=submit] + a {
-    font-size: .8em;
-}
-
-}
-
-
-@media screen and (min-width: 20em) {
-   form {
-    margin: 0 auto;
-    width: 30%;
-    padding: 1em;
-}
-
-
-input {
-    width: 70%;
-}
-
-
-
-input[type=submit] {
-    width: 30%;
-    font-size: .8em;
-    margin-right: 2.5em;
-}
-
-input[type=checkbox] {
-    width: 1em;
-}
-
-
-:root input[type=checkbox] {
-    width: 16px;
-    height: 16px;
-    margin: 0 .5em 0 0;
-    vertical-align: center;
-    position: relative;
-    outline: 1px dotted black;
-}
-
-
-input[type=submit] + a {
-    font-size: .8em;
-}
-
-}
 
   
 

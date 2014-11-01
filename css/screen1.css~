@@ -26,7 +26,6 @@ input[type=search] {
   border: 1px dotted #999;
   line-height:1.5em;
   padding-left: .5em;
-  -webkit-appearance: none;
   margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -39,113 +38,7 @@ input[type=search]:focus {
 
 input[type=submit] {
    background   : rgba(0,0,0,.1);
-   outline      : none;
 }
 
-@media screen and (min-width: 20em) {
-
-button {
-  font-size   : 100%;
-}
-
-
-input[type=search] {
-  border-radius: .5em;
-  border: 1px dotted #999;
-  line-height:1.5em;
-  padding-left: .5em;
-  -webkit-appearance: none;
-  margin-left: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-
-}
-
-@media screen and (min-width: 20em) {
-
-button {
-  font-size   : 100%;
-}
-
-
-input[type=search] {
-  border-radius: .5em;
-  border: 1px dotted #999;
-  line-height:1.5em;
-  padding-left: .5em;
-  -webkit-appearance: none;
-  margin-left: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-
-}
-
-
-@media screen and (min-width: 80em) {
-
-button {
-  font-size   : 100%;
-}
-
-
-input[type=search] {
-  border-radius: .5em;
-  border: 1px dotted #999;
-  line-height:1.5em;
-  padding-left: .5em;
-  -webkit-appearance: none;
-  margin-left: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-
-}
-
-@media screen and (min-width: 40em) {
-
-button {
-  font-size   : 100%;
-}
-
-
-input[type=search] {
-  border-radius: .5em;
-  border: 1px dotted #999;
-  line-height:1.5em;
-  padding-left: .5em;
-  -webkit-appearance: none;
-  margin-left: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-
-}
-
-@media screen and (min-width: 20em) {
-
-button {
-  font-size   : 100%;
-}
-
-
-input[type=search] {
-  border-radius: .5em;
-  border: 1px dotted #999;
-  line-height:1.5em;
-  padding-left: .5em;
-  -webkit-appearance: none;
-  margin-left: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-
-}
 
 

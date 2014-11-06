@@ -76,7 +76,7 @@ img {
  
 /*  Media Query */
 
-@media screen (min-width: 1200px) {
+@media screen  and (min-width: 1200px) {
 
 form {
     margin: 0 auto;
@@ -89,22 +89,30 @@ form h1 {
 }
 
 input {
-    width: 100%;
-    size: 100%;
+    width: 75%;
+    size: auto;
+}
+
+input[type=submit] {
+    width: auto;
+    size: auto;
 }
 
 img {
-  width: 100%;
+  position: center;
+  left:50%;
+  right: 50%;
+  width: 90%;
   height: auto;
 } 
 
 }
 
-@media screen (max-width: 1200px) and (min-width: 800px) {
+@media screen and (min-width: 800px) {
 
 form {
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
 }
 
 form h1 {
@@ -113,22 +121,23 @@ form h1 {
 
 input {
     width: auto;
-    size: 100%;
+    size: 75%;
 }
 
+
 img {
-  width: 100%;
+  width: 90%;
   height: auto;
 } 
 
 }
 
 
-@media screen (max-width: 800px) and (min-width: 400px) {
+@media screen and (min-width: 400px) {
 
 form {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
 }
 
 form h1 {
@@ -136,7 +145,7 @@ form h1 {
 }
 
 input {
-    width: 50%;
+    width: auto;
     size: 100%;
 }
 
@@ -147,7 +156,7 @@ img {
 
 }
 
-@media screen (max-width: 400px) {
+@media screen and (min-width: 200px) {
 
 form {
     margin: 0 auto;
@@ -164,7 +173,7 @@ input {
 }
 
 img {
-  width: 100%;
+  width: 90%;
   height: auto;
 } 
 

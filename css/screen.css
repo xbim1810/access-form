@@ -76,17 +76,87 @@ img {
  
 /*  Media Query */
 
-@media screen  and (min-width: 1200px) {
+@media screen and (min-width: 1em) {
 
 form {
-    margin: 0 auto;
-    width: 30%;
+    margin: .5em .5em .5em .5em;
+    width: 100%;
 }
-
 
 form h1 {
    width: 100%;
 }
+
+input {
+    width: 80%;
+}
+
+input[type=submit] {
+    width: 40%;
+}
+
+img {
+  width: 90%;
+  height: auto;
+} 
+
+}
+
+@media screen and (min-width: 20em) {
+
+form {
+    float:center;
+    margin: .5em auto .5em auto;
+    width: 50%;
+}
+
+
+input {
+    width: 80%;
+}
+
+
+input[type=submit] {
+    width: auto;
+    size: auto;
+}
+
+img {
+  width: 90%;
+  height: auto;
+} 
+
+}
+
+@media screen and (min-width: 40em) {
+
+form {
+    margin: .5em auto .5em auto;
+    width: 40%;
+}
+
+input {
+    width: 80%;
+    size: auto;
+}
+
+
+img {
+  float: center;
+  width: 90%;
+  height: auto;
+} 
+
+}
+
+@media screen  and (min-width: 80em) {
+
+form {
+    margin: 0 auto;
+    width: 30%;
+    max-width: 150em;
+}
+
 
 input {
     width: 75%;
@@ -99,33 +169,7 @@ input[type=submit] {
 }
 
 img {
-  position: center;
-  left:50%;
-  right: 50%;
-  width: 90%;
-  height: auto;
-} 
-
-}
-
-@media screen and (min-width: 800px) {
-
-form {
-    margin: 0 auto;
-    width: 40%;
-}
-
-form h1 {
-   width: 100%;
-}
-
-input {
-    width: auto;
-    size: 75%;
-}
-
-
-img {
+  margin: .5em auto .5em auto;
   width: 90%;
   height: auto;
 } 
@@ -133,51 +177,10 @@ img {
 }
 
 
-@media screen and (min-width: 400px) {
 
-form {
-    margin: 0 auto;
-    width: 60%;
-}
 
-form h1 {
-   width: 100%;
-}
 
-input {
-    width: auto;
-    size: 100%;
-}
 
-img {
-  width: 50%;
-  height: auto;
-} 
-
-}
-
-@media screen and (min-width: 200px) {
-
-form {
-    margin: 0 auto;
-    width: 100%;
-}
-
-form h1 {
-   width: 100%;
-}
-
-input {
-    width: auto;
-    size: 100%;
-}
-
-img {
-  width: 90%;
-  height: auto;
-} 
-
-}
 
   
 

@@ -10,35 +10,31 @@
   <body>
     <form action="https://www.reddit.com/register" id="registerform" method="post">
           <h1>New User Register</h1>
-	  <p>
+	 
 		<label for="user_register">Username<br />
 		<input type="text" name="register" id="user_register" value="" size="20" required autofocus />
                 <strong><abbr title="required">*</abbr></strong></label>
-	  </p>
-          <p>
+	  </br>
 		<label for="user_email">Email<br />
 		<input type="email" name="mail" id="user_email" size="20" required />
                 <strong><abbr title="required">*</abbr></strong></label>
-	  </p>
-	  <p>
+	  </br>
 		<label for="user_pass">Password<br />
 		<input type="password" name="pwd" id="user_pass" size="20" required />
                 <strong><abbr title="required">*</abbr></strong></label>
-	  </p>
-          <p>
+	  </br>
 		<label for="user_pass_again">Confirm Password<br />
 		<input type="password" name="pwd" id="user_pass_again" value="" size="20" required />
                 <strong><abbr title="required">*</abbr></strong></label>
-	  </p>
-
-          <p class="rememberpwd">
+	  
+          <div class="rememberpwd">
 		<label for="rememberme">
 		<span><input name="rememberme" type="checkbox" id="rememberme" value="checkbox" />Remember Me</span></label>
                 | <a href="form.html">back to reddit.com</a>
-	  </p>
-          <p class="submit">
+	  </div>
+          <div class="submit">
 		<input type="submit" name="reddit-submit" id="reddit-submit" value="Create Account" />
-          </p>
+          </div>
           <img src="reddit.jpg" alt="reddit" width="175" height="60">
     </form>
   </body>

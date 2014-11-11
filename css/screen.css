@@ -2,7 +2,7 @@
 form {
     /* Just to center the form on the page */
     margin: 0 auto;
-    width: 30%;
+    width: 100%;
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;
@@ -30,9 +30,11 @@ input {
 }
 
 span {
+    font-family: inherit;
     line-height: 1em;
     color: #B404AE;
     margin-top: 1em;
+    margin-left: .5em;
 }
 
 :root input[type=checkbox] {
@@ -43,11 +45,19 @@ span {
 }
 
 a {
+    font-family: inherit;
     color: #08088A;
     text-decoration: none;
 }
 
 span a {
+    color: #B404AE;
+}
+
+strong a {
+    font-family: "Bitstream Charter", Times New Roman, sarif;
+    font-size: 1.2em;
+    font-weight: bold;
     color: #B404AE;
 }
 
@@ -100,12 +110,12 @@ img {
 
 }
 
-@media screen and (min-width: 20em) {
+@media screen and (min-width: 15em) {
 
 form {
     float:center;
     margin: .5em auto .5em auto;
-    width: 50%;
+    width: 80%;
 }
 
 
@@ -126,15 +136,15 @@ img {
 
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 24em) {
 
 form {
     margin: .5em auto .5em auto;
-    width: 40%;
+    width: 65%;
 }
 
 input {
-    width: 80%;
+    width: 75%;
     size: auto;
 }
 
@@ -147,7 +157,31 @@ img {
 
 }
 
-@media screen  and (min-width: 80em) {
+@media screen  and (min-width: 45em) {
+
+form {
+    margin: 0 auto;
+    width: 40%;
+}
+
+
+input {
+    width: 70%;
+    size: auto;
+}
+
+input[type=submit] {
+    width: auto;
+    size: auto;
+}
+
+img {
+  margin: .5em auto .5em auto;
+  width: 90%;
+  height: auto;
+} 
+
+@media screen and (min-width: 70em) {
 
 form {
     margin: 0 auto;
@@ -157,7 +191,7 @@ form {
 
 
 input {
-    width: 75%;
+    width: 70%;
     size: auto;
 }
 
